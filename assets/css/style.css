@@ -50,27 +50,27 @@ h1 {
 }
 
 #result {
-	background-color: #58961F;
+	background-color: #1F965D;
 	width: 15%;
 	height: 80px;
 
 }
 
 #previous {
-	background-color: #58961F;
+	background-color: #1F9396;
 	color: white;
 	width: 15%;
 	height: 80px;
 
 }
 #win {
-	background-color: #961F94;
+	background-color: #1BEEF0;
 	width: 10%;
 	height: 50px;
 
 }
 #lost {
-	background-color: #961F94;
+	background-color: #1BEEF0;
 	width: 10%;
 	height: 50px;
 	
