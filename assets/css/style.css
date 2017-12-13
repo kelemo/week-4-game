@@ -1,0 +1,82 @@
+
+body {
+	background-image: url(circles.png);
+	border: 5px solid black;
+	padding: 10px;
+	color: white;
+}
+
+h1 {
+	background-color: #9c27b0;
+	color: white;
+	width: 25%;
+	height: 80px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.para {
+	background-color: #f5bb0a;
+	color:#308830;
+	width: 50%;
+	line-height: 1.8;
+	letter-spacing: 3px;
+	padding: 5px;
+	font-weight: bold;
+}
+
+.crystals{
+	width: 40%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.crystal{
+	border:1px solid green;
+	height:100px;
+	width: 100px;
+	border-radius: 4px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+	transition: box-shadow 1s, transform 2s;
+}
+
+.crystal:hover{
+	box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+	transform: translate(5px,10px);
+	cursor: pointer;
+	transition: box-shadow 1s, transform 2s;
+
+}
+
+#result {
+	background-color: #58961F;
+	width: 15%;
+	height: 80px;
+
+}
+
+#previous {
+	background-color: #58961F;
+	color: white;
+	width: 15%;
+	height: 80px;
+
+}
+#win {
+	background-color: #961F94;
+	width: 10%;
+	height: 50px;
+
+}
+#lost {
+	background-color: #961F94;
+	width: 10%;
+	height: 50px;
+	
+
+}
+
+img{
+	width:50px;
+}

@@ -1,1 +1,2 @@
-# week-4-game
+# crystal-collector
+Crystal Collector
